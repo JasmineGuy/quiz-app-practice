@@ -50,3 +50,6 @@ button {
 button:hover {
   background-color: darkblue;
 }
+button:focus {
+  outline: none;
+}

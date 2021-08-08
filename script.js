@@ -103,7 +103,7 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else {
             console.log(score)
-            quiz.innerHTML = `<h2>You answered ${score} out of ${quizData.length} correctly!</h2>`
+            quiz.innerHTML = `<h2>You answered ${score} out of ${quizData.length} correctly!</h2><button onClick="location.reload()">Reload</button>`
         }
     }     
 
